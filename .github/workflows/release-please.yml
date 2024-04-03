@@ -3,7 +3,7 @@ name: Release Workflow
 on:
   push:
     branches:
-      - 'main'
+      - 'pre_release'
 
 jobs:
   release-job:
@@ -18,3 +18,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: terraform-module
+          target-branch: 'pre_release'
