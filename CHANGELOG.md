@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.0](https://github.com/SherDG/GitTest/compare/v21.0.0...v1.0.0) (2024-04-03)
+
+
+### Bug Fixes
+
+* Test ([6657d84](https://github.com/SherDG/GitTest/commit/6657d84d6011d91d0556159ae0dd3d34ac2533d0))
+
+
+### Miscellaneous Chores
+
+* release 1.0.0 ([ba86134](https://github.com/SherDG/GitTest/commit/ba86134accb46d4168602841b45aa5a10e682c67))
+
 ## 21.0.0 (2024-03-14)
 
 
