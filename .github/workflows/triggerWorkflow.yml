@@ -1,0 +1,22 @@
+name: Automated Workflow Trigger
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  trigger_workflow:
+    if: startsWith(github.event.pull_request.title, 'chore(main):')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Workflow
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: SherDG
+          REPO: GitTest
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            https://api.github.com/repos/$OWNER/$REPO/dispatches \
+            -d '{"event_type": "tag_created"}'
