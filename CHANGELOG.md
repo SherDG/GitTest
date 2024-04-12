@@ -1,5 +1,13 @@
 # Changelog
 
+## [23.1.0](https://github.com/SherDG/GitTest/compare/v23.0.0...v23.1.0) (2024-04-12)
+
+
+### Features
+
+* check trigger ([ae19497](https://github.com/SherDG/GitTest/commit/ae1949751979b862c36529ce9b9dc071183969ec))
+* Test trigger ([0454905](https://github.com/SherDG/GitTest/commit/0454905a0ae3415714e57dd685c958d7445a3d9a))
+
 ## [23.0.0](https://github.com/SherDG/GitTest/compare/v1.0.0...v23.0.0) (2024-04-03)
 
 
