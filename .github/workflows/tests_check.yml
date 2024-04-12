@@ -4,7 +4,7 @@ on:
   repository_dispatch:
     types: [tag_created]
 jobs:
-  Explore-GitHub-Actions:
+  newman_tests:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
