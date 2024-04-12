@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Trigger Workflow
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
           OWNER: SherDG
           REPO: GitTest
         run: |
