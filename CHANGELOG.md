@@ -1,5 +1,12 @@
 # Changelog
 
+## [23.3.0](https://github.com/SherDG/GitTest/compare/v23.2.0...v23.3.0) (2024-04-15)
+
+
+### Features
+
+* Test trigger run ([5367274](https://github.com/SherDG/GitTest/commit/53672740e44613746478c45235664bd9d209d90d))
+
 ## [23.2.0](https://github.com/SherDG/GitTest/compare/v23.1.0...v23.2.0) (2024-04-12)
 
 
